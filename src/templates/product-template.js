@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from '../components/layout'
 import Image from 'gatsby-image'
-import Images from "../examples/images"
+//import Images from "../examples/images"
 
 const ComponentName = ({ data:{product:{price,title,image:{fixed},info:{ info }}} }) => {
    return (
